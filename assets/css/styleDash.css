@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:wght@900&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:wght@900&family=Nunito:wght@400;600;700;800;900;1000&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    margin: 0%;
+    overflow: hidden;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0 40px; 
+    /* atasBwh KiriKnn */
+}
+.logo img {
+    align-items: center;
+    height: 70px;
+    margin-left: 28px;
+}
+.logo img:hover {
+    height: 68px;
+}
+.otentikasi {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.otentikasi a img {
+    height: 50px;
+    padding: 10px 20px;
+}
+.otentikasi a img:hover {
+    height: 48px;
+}
+
+/* border nav */
+.border {
+    position: absolute;
+    right: 0;
+    top: 77px;
+    display: flex;
+}
+
+
+/* konten */
+section.hero {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    background-color: #FAB318;
+    padding: 100px 0px 0px 0px;
+    width: 55%;
+}
+.side-bar a {
+    margin-right: 70px;
+    margin-top: 70px;
+    text-decoration: none;
+    color: #404242;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+.side-bar a:hover {
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 50px -44px -20px 67px;
+    text-align: center;
+    padding: 20px 40px 20px 20px;
+    transform: scale(1.0);
+}
+.information {
+    height: 20px;
+    padding: 200px 110px 100px 100px;
+    align-items: center;
+}
+form .btn-primary {
+    font-weight: 1000;
+    font-family: 'Nunito', sans-serif;
+    background-color: #404242;
+    color: #FAB318;
+    font-weight: bolder;
+    border-radius: 300px;
+    border-width: 0;
+    padding: 20px 35px;
+    font-size: 19px;
+    margin: 180px 70px;
+    text-decoration: none;
+}
+.btn button:enabled,
+.btn button:disabled {
+    font-weight: 1000;
+    font-family: 'Nunito', sans-serif;
+    background-color: #404242;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 20px;
+    border-width: 0;
+    padding: 13px 28px;
+    font-size: 17px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.btn button:disabled {
+    color: #999;
+    cursor: not-allowed;
+}
+.btn button:hover:enabled {
+    color: #FAB318;
+}
+form .btn-primary:hover {
+    padding: 20px 37px;
+}
+.side-bar button img {
+    height: 35px;
+    margin: 0 0 -15px 80px;
+}
+.side-bar .select {
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 50px -44px -20px 67px;
+    text-align: center;
+    padding: 20px 40px 20px 20px;
+}
+
+.profile, .pilihan{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile {
+    margin: 12% 50%;
+}
+.pilihan {
+    margin: 10% 47%;
+}
+.profile img {
+    margin-bottom: 16px;
+}
+.profile .info, .pilihan{
+    display: flex;
+    flex-direction: column;
+}
+.profile .info input {
+    background-color: #fff;
+    border: 4px solid #404242;
+    border-radius: 30px;
+    border-width: 4px;
+    padding: 15px 100px 15px 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.info label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #404242;
+    margin: 20px 0 0 0;
+    display: flex;
+    float: left;
+    margin-left: 25px;
+}
+.pilihan {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #404242;
+    margin-left: 70vh;
+}
+.box-pilihan {
+    padding: 16px 50px;
+    margin: 0 8px 0 0;
+    border-radius: 20px;
+    border-width: 0;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27) !important;
+}
+.box-pilihan a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #404242;
+}
+.box-pilihan a:hover {
+    color: #FAB318;
+}
+.btn-primary {
+    padding-left: 48vh;
+}
+.btn-primary button {
+    font-size: 18px;
+    padding: 15px 40px;
+    margin-top: 40px;
+}

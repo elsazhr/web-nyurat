@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styleDash.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/img/logologo-kuning.svg" alt="">
+                </a>
+            </div>
+            <div class="border">
+                <img src="../assets/img/Vector 2.svg" alt="">
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="side-bar">
+                <a href="dashBuat.html">Buat</a>
+                <a href="dashRS.html">Riwayat Surat</a>
+                <a href="dashRTd.html">Riwayat Tanda Tangan</a>
+                <a href="dashProfil.html" class="select">Akun</a>
+                <form action="../otentikasi/logout.php" >
+                    <button class="btn-primary">
+                        Logout
+                        <img src="../assets/img/icon-logout.svg" alt="">
+                    </button>
+                </form>
+                
+            </div>
+            <div class="profile">
+                <img src="../assets/img/profile.svg" alt="">
+                <form class="php" method="post" action="dashProfile.php" >
+                    <div class="info">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" value="<?=$username;?>" disabled>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" value="<?=$email;?>" disabled>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" value="<?=$password;?>" disabled>
+                    </div>                    
+
+                    <div class="btn">
+                        <button id="editButton" onclick="enableInputs()">Edit</button>
+                        <button id="saveButton" onclick="saveChanges()" disabled>Simpan</button>
+                    </div>
+
+                    <script src="dashProfile.js"></script>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html> -->

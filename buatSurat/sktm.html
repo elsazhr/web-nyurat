@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styleBuat.css">
+    <title>SKTM</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/img/logologo-kuning.svg" alt=""></a>
+            </div>
+            <div class="icon">
+                <a href="../dashboard/dashBuat.html"><img class="menu" src="../assets/img/icon-menu.svg" alt=""></a>
+                <a href="../dashboard/dashProfil.html"><img class="profile" src="../assets/img/profile.svg" alt=""></a>
+            </div>
+            <div class="border">
+                <img src="../assets/img/Vector 2.svg" alt="">
+            </div>
+        </nav>
+        
+        <h1>SURAT KETERANGAN TIDAK MAMPU (SKTM)</h1>
+        <section class="sktm">
+            <div>
+                <form method="POST" action="sktm.php">
+                    <!-- KOP SURAT -->
+                    <div class="box">
+                        <div>
+                            <h3>Kop Surat</h3>
+                        </div>
+                        <div class="coll-vers1">
+                            <label for="nama_instansi">Nama Instansi</label>
+                            <p>:</p>
+                            <input type="text" name="nama_instansi" placeholder="contoh: Desa Seloboro" size="40"><br>
+                            <label for="jenis_instansi">Jenis Instansi</label>
+                            <p>:</p>
+                            <input type="text" name="jenis_instansi" placeholder="contoh: Desa Seloboro" size="40"><br>
+                            <label for="alamat">Alamat</label>
+                            <p>:</p>
+                            <input type="text" name="alamat" placeholder="contoh: Desa Seloboro" size="40"><br>
+                            <label for="telp">No Telp/HP</label>
+                            <p>:</p>
+                            <input type="text" name="telp" placeholder="contoh: Desa Seloboro" size="40"><br>
+                        </div>
+                    </div>
+
+                    <!-- TEMPAT TANGGAL -->
+                    <div class="box">
+                        <div>
+                            <h3>Tempat dan Tanggal Surat</h3>
+                        </div>
+                        <div class="coll-vers1">
+                            <label for="tempat_surat">Tempat Surat</label>
+                            <p>:</p>
+                            <input type="text" name="tempat_surat" placeholder="contoh: Magelang" size="40"> <br>
+                            <label for="tanggal_surat">Tanggal Surat</label>
+                            <p>:</p>
+                            <input type="date" name="tanggal_surat" placeholder="mm/dd/yyyy" size="40"><br>
+                        </div>
+                    </div>
+
+                    <!-- NO SURAT -->
+                    <div class="box">
+                        <div>
+                            <h3>Nomor, Perihal, Lampiran</h3>
+                        </div>
+                        <div class="coll-vers1">
+                            <label for="nomor_surat">Nomor Surat</label>
+                            <p>:</p>
+                            <input type="text" name="nomor_surat" placeholder="contoh: Magelang" size="40"> <br>
+                        </div>
+                    </div>
+
+                    <!-- ISI SURAT -->
+                    <div class="box">
+                        <div>
+                            <h3>Isi Surat</h3>
+                        </div>
+                        <div class="coll-vers1">
+                            <label for="paragraf1">Paragraf 1</label>
+                            <p>:</p>
+                            <textarea name="paragraf1" id="" cols="30" rows="10">
+                                Kepala Desa ................. Kecamatan ................. Kabupaten ................. menerangkan dengan sesusngguhnya bahwa :
+                            </textarea><br>
+                            <label for="paragraf2">Paragraf 2</label>
+                            <p>:</p>
+                            <textarea name="paragraf2" id="" cols="30" rows="10"></textarea><br>
+                            <label for="paragraf3">Paragraf 3</label>
+                            <p>:</p>
+                            <textarea name="paragraf3" id="" cols="30" rows="10"></textarea><br>
+                            <label for="paragraf4">Paragraf 4</label>
+                            <p>:</p>
+                            <textarea name="paragraf4" id="" cols="30" rows="10">
+                                Misalnya nich
+                            </textarea><br>
+                            <label for="paragraf5">Paragraf 5</label>
+                            <p>:</p>
+                            <textarea name="paragraf5" id="" cols="30" rows="10"></textarea><br>
+                        </div>
+                    </div>
+
+                    <!-- SALAM PENUTUP -->
+                    <div class="box">
+                        <div>
+                            <h3>Salam Penutup</h3>
+                        </div>
+                        <div class="coll-vers2">
+                            <textarea name="penutup" id="" cols="30" rows="10"></textarea><br>
+                        </div>
+                    </div>
+
+                    <!-- PENGESAHAN -->
+                    <div class="box">
+                        <div>
+                            <h3>Pengesahan</h3>
+                        </div>
+                        <div class="coll-vers1">
+                            <label for="pengesahan">Tertanda Kepala Desa</label>
+                            <p>:</p>
+                            <input type="text" name="pengesahan" placeholder="Nama" size="40"> <br>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <input class="btn" type="submit" name="submit" value="Buat Surat"><br><br><br><br>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+    <div class="feet">
+        <div class="border3">
+            <img src="../assets/img/Vector 3.svg" alt="">
+        </div>
+        <footer>
+            <div class="footer">
+                <p> Copyright &copy; 2023 NYURAT. Hak Cipta dilindungi Undang-Undang</p>
+            </div>
+        </footer> 
+    </div>
+</body>
+</html>

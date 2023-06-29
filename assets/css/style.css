@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:wght@900&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:wght@900&family=Nunito:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    margin: 0%;
+    height:100%;
+}
+
+/* Navbar */
+nav {
+    background: #FAB318;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: 73px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0 40px; 
+    /* atasBwh KiriKnn */
+}
+.logo img {
+    align-items: center;
+    height: 70px;
+}
+.menu ul {
+    display: flex;
+    gap: 100px;
+}
+.menu ul li {
+    list-style: none;
+    font-size: 17px;
+}
+.menu li a {
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: #404242;
+    font-family: Arial;
+}
+.menu li a:hover {
+    color: white;
+}
+.otentikasi {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.otentikasi a {
+    background: #404242;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.otentikasi a:hover {
+    color: #FAB318;
+}
+
+/* border nav */
+.border {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    display: flex;
+}
+
+/* hero */
+section.hero {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+}
+.column-illust {
+    position: relative;
+    height: 20px;
+    padding: 70px 100px 100px 100px;
+    align-items: center;
+}
+.column-text {
+    padding: 140px 50px 120px 120px;
+    width: 50%;
+}
+h1.hero-heading {
+    font-family: "Bodoni Moda";
+    font-size: 64px;
+    color: #404242;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+p.description {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.column-text .btn-primary {
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FAB318;
+    padding: 15px 30px;
+    border-radius: 300px;
+    border-color: #404242;
+    border-width: 4px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #404242;
+    margin: 5% 0 0 27% ;
+}
+
+/* Fitur Fitur */
+.laman-fitur {
+    height: 86vh;
+}
+.border2 {
+    margin-top: 90px;
+    position: absolute;
+    right: 0;
+}
+.title-fitur {
+    font-family: "Bodoni Moda";
+    font-size: 30px;
+    display: flex;
+    width: auto;
+    color: #404242;
+    padding: 100px 50px 20px 120px;
+}
+.fitur-3coll {
+    margin-top: 120px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.col {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.col p, .col2 p {
+    font-size: 20px;
+    margin-left: -70px;
+    padding-top: 40px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Surat Desa */
+.laman-surat {
+    height: 120vh;
+}
+.surat-3coll {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.col2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+.col2 div {
+    display: flex;
+    padding: 50px 0;
+}
+
+/* Tentang */
+.laman-tentang {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between; 
+    width: auto;
+    margin: 20px 0px 20px 150px;
+}
+.text-desc .bg img {
+    position: absolute;
+    height: 38vh;
+}
+.text-desc {
+    width: 70%;
+}
+.text-desc .bg .logo {
+    width: 50%;
+    position: absolute;
+    margin: 90px 0 0 64px;
+    line-height: 30px;
+}
+.text-desc .bg .logo img {
+    height: 100px;
+}
+.text-desc .bg .logo p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 29vh;
+    padding-left: 120px;
+    padding-top: 70px;
+}
+.link-tentang {
+    position: absolute;
+    width: auto;
+    padding-left: 90px;
+    padding-top: 130px;
+    margin-left: 90vh;
+}
+.link-tentang a {
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    align-self: center;
+    line-height: 60px;
+    font-size: 22px;;
+    color: black;
+}
+.link-tentang a:hover {
+    color: #FAB318;
+}
+
+/* Footer */
+.border3 {
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin-bottom: -30px;
+}
+footer .footer {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 0px;
+    margin: 45px 0 20px 0;
+    text-align: center;
+}
+
